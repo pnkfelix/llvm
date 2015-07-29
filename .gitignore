@@ -46,8 +46,9 @@ autoconf/autom4te.cache
 projects/*
 !projects/*.*
 !projects/Makefile
-# Clang, which is tracked independently.
-tools/clang
+# # Clang, which is tracked independently.
+# # FSK: (but now it is a git submodule)
+# tools/clang
 # LLDB, which is tracked independently.
 tools/lldb
 # lld, which is tracked independently.
